@@ -1,0 +1,219 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.logo, .header-section, .footer-section {
+  width: 100%;
+  padding: 2%;
+}
+
+.main-head-text {
+  padding-top: 2%;
+  margin:0;
+  font-family: 'Lato', sans-serif;
+  font-size: 300%;
+  text-align: center;
+}
+
+.sub-head-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 120%;
+  letter-spacing: .07em;
+  margin: 0 0 2% 0;
+  text-align: center;
+}
+
+.logo img {
+  padding-top: 3%;
+  padding-left: 2%;
+  margin: auto;
+  max-width: 60px;
+}
+
+.divider {
+  height: 3px;
+}
+
+.main-picture {
+  background-color: black;
+}
+
+.feature-header {
+  font-family: 'Lato', sans-serif;
+  font-size: 180%;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  margin: 0;
+  padding: 2%;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.app-container {
+  background-color: black;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.app-box {
+  width: 100%;
+}
+
+.modal-content, .btn {
+  font-family: 'Raleway', sans-serif;
+}
+
+.modal-body img {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.footer-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footer-heading{
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 10px;
+  font-size: 200%;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.bio-img {
+  width: 200px;
+  min-width: 150px;
+  border-radius: 50%;
+  display: block;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: auto auto;
+}
+
+@media screen and (min-width: 530px) {
+  .main-head-text {
+    font-size: 500%;
+  }
+
+  .sub-head-text {
+    font-size: 200%;
+  }
+
+  .logo img {
+    max-width: 100px;
+  }
+
+  .feature-header {
+    font-size: 300%;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .app-box, .footer-section {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 675px) {
+  .main-head-text, .sub-head-text {
+    text-align: right;
+  }
+
+  .header-section {
+    width: calc(100% - 150px);
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .feature-header {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .app-box {
+    width: 33.333%;
+  }
+
+  .footer-section {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .logo img {
+    padding-top: 10%;
+  }
+}
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+[class*="zocial-"]:before {
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+}
+
+/* unvisited link */
+a:link {
+    color: #c5d8f7;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #95aed6;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #95aed6;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #c5d8f7;
+    text-decoration: none;
+}
